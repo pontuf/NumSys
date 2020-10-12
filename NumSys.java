@@ -33,7 +33,6 @@ public class NumSys{
         if(b != 10){
             while(sum > 0){
                 long val = 0;
-                char temp;
 
                 val = sum % b;
                 sum /= b;
